@@ -1,470 +1,297 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>SeedSense by Onda</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="SeedSense by Onda - A modern software platform to streamline seed trialing data for large and small seed companies." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SeedSense by Onda</title>
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="seedsense.css" />
+  <!-- (Optional) Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"/>
+</head>
+<body>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Header -->
-					<header id="header">
-						
-						<div class="content">
-							<div class="inner">
-								<h1>SeedSense by Onda Solutions</h1>
-								<h2>A fully built software solution for planting, tracking, and managing seed trialing.
-								Let us bring your product development or research into the future.</h2>
-							
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Features</a></li>
-								<li><a href="#work">Roadmap</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+  <!-- HEADER / NAVIGATION -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="seedsense.html">
+          <img src="assets/images/sslogo.png" alt="SeedSense Logo" />
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="features.html">Our Software</a></li>
+          <li><a href="benefits.html">Why SeedSense?</a></li>
+          <li><a href="about.html">Who We Are</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta">
+        <a href="#contact" class="btn btn-primary">Request a Demo</a>
+      </div>
+    </div>
+  </header>
 
-				<!-- Main -->
-					<div id="main">
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Reinvent Your Seed Trials with SeedSense</h1>
+        <p>
+          Track field trials, manage product entries, and get real-time insights—
+          all with a single platform built for seed companies.
+        </p>
 
-						<!-- Intro -->
-							<article id="intro">
-								    <h2 class="major">Current Features</h2>
-								    <span class="image main"><img src="images/pic01new.jpg" alt="" /></span>
-								    <p>SeedSense currently offers the following features:</p>
-								    <ul>
-								        <li><i class="fas fa-map-marker-alt"></i> Integrated GPS and mapping for trials
-								            <div class="feature-desc">
-								                This feature allows you to easily visualize the precise locations of all your trials on a map. It also helps you share directions with team members or collaborators, ensuring everyone knows exactly where each trial is located.
-								            </div>
-								        </li>
-								        <hr>
-								        <li><i class="fas fa-pencil-alt"></i> Thorough grading and evaluation options
-								            <div class="feature-desc">
-								                SeedSense provides versatile grading and evaluation options. You can write detailed evaluations in open text format or build custom templates tailored to specific crops. This flexibility ensures that you can accurately document and assess the performance of each variety.
-								            </div>
-								        </li>
-								        <hr>
-								        <li><i class="fas fa-database"></i> Dynamic data management for locations, crops, suppliers, and varieties
-								            <div class="feature-desc">
-								                Our dynamic data management system helps you maintain comprehensive records of your organization's locations, crops, suppliers, and varieties. Easily access your team's trials and completed evaluations through intuitive and user-friendly catalogs, making data retrieval simple and efficient.
-								            </div>
-								        </li>
-								        <hr>
-								        <li><i class="fas fa-camera"></i> High quality image storage for evaluations
-								            <div class="feature-desc">
-								                Capture high-quality photos directly with the app or upload them at a later time. This feature allows you to visualize the progress and characteristics of each variety, providing a clear visual record to support your evaluations and decisions.
-								            </div>
-								        </li>
-								        <hr>
-								        <li><i class="fas fa-tasks"></i> Task management for every user and trial
-								            <div class="feature-desc">
-								                Keep track of all the tasks involved in managing your trials, from planting and thinning to maturity checks and evaluations. Our task management feature ensures that every user knows their responsibilities and can stay on top of daily tasks without missing any critical steps.
-								            </div>
-								        </li>
-								        <hr>
-								        <li><i class="fas fa-file-pdf"></i> Custom PDF trial maps and evaluation reports
-								            <div class="feature-desc">
-								                Once your trials are planted or evaluations are complete, you can create custom PDF trial maps and evaluation reports. These detailed documents allow you to share all the essential information about your trials with stakeholders, ensuring clear communication and comprehensive reporting.
-								            </div>
-								        </li>
-								    </ul>
-								</article>
-								
-								<style>
-								    .feature-desc {
-								        margin: 10px 0;
-								        padding-left: 10px;
-								        font-style: italic;
-								        color: #DFE2DE;
-								        border-left: 4px solid transparent; /* To maintain alignment */
-								    }
-								
-								    .feature-desc i {
-								        margin-right: 5px;
-								        color: inherit; /* Use the same color as the text */
-								    }
-									 ul li {
-									list-style-type: none;
-									padding-left: 25px;
-								    }
-								
-								    ul li i {
-									margin-right: 10px;
-								    }
-								
-								    hr {
-									border: 0;
-									border-top: 1px solid #eee;
-									margin: 20px 0;
-								    }
-								</style>
-								
-								<!-- Font Awesome for the icons -->
-								<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-						<!-- Work -->
-							<article id="work">
-								<h2> Roadmap</h2>
-								<h2 class="major"> Upcoming Features</h2>
-								<span class="image main"><img src="images/pic03new.jpg" alt="" /></span>
-								  <p>SeedSense is excited to introduce the following upcoming features:</p>
-								    <ul>
-								        <li><i class="fas fa-mobile-alt"></i> A Mobile App for Offline Use
-								            <div class="feature-desc">
-								                Our upcoming mobile app will enable users to work seamlessly offline. Capture data, take photos, and perform evaluations without needing an internet connection. All your data will sync automatically once you’re back online, ensuring uninterrupted productivity.
-								            </div>
-								        </li>
-								        <hr>
-								        <li><i class="fas fa-seedling"></i> Custom Crop-Specific Evaluation Traits
-								            <div class="feature-desc">
-								                Tailor your evaluations with custom, crop-specific traits. This feature allows you to define and use specific evaluation criteria relevant to each type of crop, providing more accurate and detailed assessments that meet your unique needs.
-								            </div>
-								        </li>
-								        <hr>
-								        <li><i class="fas fa-robot"></i> AI-Generated Reports for Managers, Suppliers, and Growers
-								            <div class="feature-desc">
-								                Leverage the power of AI to generate comprehensive reports tailored for managers, suppliers, and growers. These reports will include insights, performance metrics, and actionable recommendations, helping you make informed decisions and optimize operations.
-								            </div>
-								        </li>
-								        <hr>
-								        <li><i class="fas fa-tasks"></i> Customizable Task Management Viewing and Sharing
-								            <div class="feature-desc">
-								                Enhance your task management with customizable viewing and sharing options. This feature will allow you to organize tasks in a way that best suits your workflow and easily share task lists and statuses with team members, ensuring everyone stays on the same page.
-								            </div>
-								        </li>
-								    </ul>
-								</article>
-								
-								<style>
-								    .feature-desc {
-								        margin: 10px 0;
-								        padding-left: 10px;
-								        font-style: italic;
-								        color: #DFE2DE;
-								        border-left: 4px solid transparent; /* To maintain alignment */
-								    }
-								
-								    .feature-desc i {
-								        margin-right: 5px;
-								        color: inherit; /* Use the same color as the text */
-								    }
-								
-								    ul li {
-								        list-style-type: none;
-								        padding-left: 25px;
-								    }
-								
-								    ul li i {
-								        margin-right: 10px;
-								    }
-								
-								    hr {
-								        border: 0;
-								        border-top: 1px solid #eee;
-								        margin: 20px 0;
-								    }
-								</style>
+      </div>
 
-							</article>
+      <div class="hero-media">
+        <img
+          src="assets/images/ssmap.PNG"
+          alt="SeedSense Map Dashboard"
+          class="hero-img"
+        />
+      </div>
+    </div>
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic02new.jpg" alt="" /></span>
-								<p>Onda Software Solutions was founded by two friends from California Polytechnic in San Luis Obispo. Using their mutual knowledge of farming and computer science, the pair focus on addressing niche problems in the agricultural industry.</p>
-								<p>From design and development to implementation and distribution, the team builds unique software applications that deliver value and cost savings to customers.</p>
-								<p>Learn more at <a href="http://ondasoftware.com">Onda Software Solutions</a>.</p>
-							</article>
+    <div class="hero-wave-divider">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+        <path
+          d="M0,30 C360,60 1080,0 1440,30 L1440,0 L0,0 Z"
+          style="fill: #ffffff;"
+        ></path>
+      </svg>
+    </div>
+  </section>
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div >
-										
-										<p>If you are a current user or business partner of SeedSense and would like to reach our support team please contact support@seedsensesoftware.com. </p>
-										<p>If you are interested in learning more about SeedSense for your business, please email sales@ondasoftware.com or call +1-760-550-0255. </p>
-										
-									</div>
-									
-								</form>
-								
-							</article>
+ <!-- INFO SECTION -->
+<section class="info-section" id="info-section">
+  <div class="container info-container">
+    <div class="info-left">
+      <h2>Take Control of Your Seed Trials</h2>
+      <p>
+        No more endless spreadsheets or guesswork. SeedSense centralizes your trial data, helping you focus on results while streamlining your workflow.
+      </p>
+      <a
+        href="benefits.html"
+        style="
+          display: block;
+          margin: 1rem auto;
+          margin-bottom: 3rem;
+          padding: 0.75rem 5rem;
+          width: fit-content;
+          background: #28593b;
+          color: #fff;
+          border-radius: 4px;
+          text-decoration: none;
+          text-align: center;
+        "
+      >
+      See All The Ways We Can Help Your Seed Business Here
+      </a>
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
+      <div class="info-icons">
+        <div class="info-icon">
+          <i class="fas fa-users"></i>
+          <div>
+            <h3>Better Decisions</h3>
+            <p>With all your company's trials at your fingertips, be able to identify what is going commercial - quickly.</p>
+          </div>
+        </div>
+        <div class="info-icon">
+          <i class="fas fa-database"></i>
+          <div>
+            <h3>Centralized Data</h3>
+            <p>Store all trial information in one platform, ensuring consistent, accurate data across your team.</p>
+          </div>
+        </div>
+        <div class="info-icon">
+          <i class="fas fa-clock"></i>
+          <div>
+            <h3>Real-Time Access</h3>
+            <p>Access the latest trial data instantly, whether you’re in the office or out in the field.</p>
+          </div>
+        </div>
+        <div class="info-icon">
+          <i class="fas fa-tasks"></i>
+          <div>
+            <h3>Streamlined Task Management</h3>
+            <p>Use task assignments to keep trials on track and ensure nothing gets overlooked during the season.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+    <div class="info-right">
+      <img
+        src="assets/images/sstasks.PNG"
+        alt="SeedSense Tasks Example"
+      />
+    </div>
+  </div>
+</section>
+ <!-- UPDATED FEATURE SECTION -->
+<section class="feature-section" id="features">
+  <div class="container">
+    <h2>Key Features</h2>
+    <p class="section-intro">
+      From sowing instructions to harvest data, SeedSense keeps every stage of your seed trials organized.
+    </p>
+    <a
+  href="features.html"
+  style="
+    display: block; /* Ensures it takes full width */
+    margin: 1rem auto; /* Centers the button horizontally and adds spacing */
+    margin-bottom: 4rem; /* Adds padding underneath */
+    padding: 0.75rem 5rem; /* Adjusts the width by increasing padding */
+    width: fit-content; /* Makes the width responsive to the content size */
+    background: #28593b;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center; /* Centers text inside the button */
+  "
+>
+  See More Of Our Features Here
+</a>
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+    <div class="feature-card">
+      <div class="feature-card-content">
+        <h3>Intuitive Evaluations & Scoring</h3>
+        <p>Easily log scores, observations, and attach photos in real time. Let your team evaluate crop performance from the field or the lab.</p>
+      </div>
+      <div class="feature-card-image">
+        <img src="assets/images/sseval.png" alt="SeedSense Evaluation Screen" />
+      </div>
+    </div>
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+    <div class="feature-card reverse-layout">
+      <div class="feature-card-content">
+        <h3>Fully Customizable Crop Traits</h3>
+        <p>Track exactly what matters to you—size, color, growth rate, or any custom traits you need. Perfect for specialized breeding programs.</p>
+      </div>
+      <div class="feature-card-image">
+        <img src="assets/images/sstraits.png" alt="SeedSense Custom Traits View" />
+      </div>
+    </div>
+  </div>
+</section>
 
-								<section>
-									<h3 class="major">Lists</h3>
+ <!-- ========== HOW IT WORKS SECTION ========== -->
+<section id="how-it-works" class="fade-in">
+  <div class="container">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <!-- Step 1: Plan Your Trial -->
+      <div class="step">
+        <div class="step-icon">
+          <i class="fas fa-seedling"></i>
+        </div>
+        <div class="step-content">
+          <strong>Plant Your Trial</strong>
+          <p>Log trial details like location, grower, crop variety, trial layout, and initial tasks to get started on the right foot.</p>
+        </div>
+      </div>
 
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+      <!-- Step 2: Manage Tasks -->
+      <div class="step">
+        <div class="step-icon">
+          <i class="fas fa-tasks"></i>
+        </div>
+        <div class="step-content">
+          <strong>Manage Tasks</strong>
+          <p>Stay organized throughout the season by using tasks for thinning, monitoring, and collaborating with team members or farmers in the field.</p>
+        </div>
+      </div>
 
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+      <!-- Step 3: Evaluate Your Trial -->
+      <div class="step">
+        <div class="step-icon">
+          <i class="fas fa-edit"></i>
+        </div>
+        <div class="step-content">
+          <strong>Evaluate Your Trial</strong>
+          <p>Use SeedSense to collect all evaluation data, including customized traits for each crop and high-quality images once the trial is mature.</p>
+        </div>
+      </div>
 
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
+      <!-- Step 4: Report and Share Data -->
+      <div class="step">
+        <div class="step-icon">
+          <i class="fas fa-share-alt"></i>
+        </div>
+        <div class="step-content">
+          <strong>Report and Share Data</strong>
+          <p>Generate trial maps and evaluation reports to share via PDF or email, or access evaluations anywhere through the SeedSense cloud catalog.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- VIDEO PLACEHOLDER (COMMENTED OUT) -->
+  <!--
+  <section id="video-demo" class="fade-in">
+    <div class="container">
+      <h2>See SeedSense in Action</h2>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+          title="SeedSense Demo Video"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </section>
+  -->
 
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
+ <!-- CONTACT / DEMO SECTION -->
+<section class="contact-demo-section" id="contact">
+  <div class="container">
+    <div class="contact-demo">
+      <h2>Contact Us</h2>
+      <p>Ready to get started with SeedSense? We’re here to assist you.</p>
 
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
+      <div class="contact-buttons">
+        <a href="tel:+17605500255" class="btn btn-primary btn-large">Call Us Here</a>
+        <a href="mailto:sales@ondasoftware.com" class="btn btn-secondary btn-large">Shoot Us An Email Here</a>
+      </div>
+      <!--add in contact button here if we want to add that as a new page -->
+    </div>
+  </div>
+</section>
 
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
+   <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <a href="https://ondasoftware.com" class="footer-logo">
+          <img src="assets/images/sslogo.png" alt="SeedSense Logo" />
+        </a>
+        <p>© <span id="year"></span> <a href="https://ondasoftware.com"> Onda Software. All rights reserved. </a> </p>
+        <p>
+          <a href="https://ondasoftware.com/seedsensepolicy" style="text-decoration: none; color: inherit;">Privacy Policy | Terms Of Service</a>
+        </p>
+      </div>
+      <div class="footer-right">
+          <div class="element">
+          <a href="about.html" class="btn btn-primary">Who We Are</a>
+        </div>
 
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
+        <p>Learn more about how SeedSense is transforming seed trials for companies around the world.</p>
+      </div>
+    </div>
+  </footer>
 
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="support@seedsensesoftware.com">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="support@seedsensesoftware.com" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p> <a href="http://ondasoftware.com">Onda Software Solutions LLC</a> </p>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
